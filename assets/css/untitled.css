@@ -1,8 +1,11 @@
+
 body{
   font-family: 'Work Sans';
-  
+  overflow-x: hidden !important;
 }
-
+body,html{
+  width: 100vw !important;
+}
 @media (min-width: 300px) {
   #stc {
     width: 55px;
@@ -117,7 +120,8 @@ body{
 
 }
 #laptop{
-  visibility: hidden;
+  /* visibility: hidden; */
+  display: none;
 }
 
 #arrowup{
@@ -270,6 +274,7 @@ margin-bottom: -12%;
     margin-left: 40%;
     margin-top: -37%;
     visibility: visible;
+    display: block;
   }
   #lsquare{
     margin-left: -4%;
